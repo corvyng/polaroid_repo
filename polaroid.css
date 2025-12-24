@@ -80,8 +80,37 @@
     gap: 20px;
 }
 
-.stars_container p {
-    margin-top: 10px;
+/* This is the stars_list flexbox */
+.stars_list {
+    margin: 0px;
     padding: 0px;
+    display: flex;
+    gap: 10px;
 }
 
+/* These are the stars_list flex items */
+.stars_list li {
+    margin-top: 10px;
+    padding: 0px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.producer_list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.producer_list ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.producer_list li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size: 18px;
+}
