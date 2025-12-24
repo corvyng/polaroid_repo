@@ -1,4 +1,20 @@
 
+/* Goal: change font to Bebas Neue */
+@font-face {
+    font-family: "Bebas Neue Regular";
+    src: url("fonts/BebasNeue-Regular.otf") format("opentype"),
+}
+
+@font-face {
+    font-family: "Bebas Neue Light";
+    src: url("fonts/BebasNeue-Light.otf") format("opentype"),
+}
+
+body {
+    font-family: "Bebas Neue Light";
+}
+
+
 /* Style poster bg */
 .poster_container {
     background-color: #e1dfe2;
@@ -35,7 +51,8 @@
 .title_container h1 {
     margin: 0;
     padding-top: 10px;
-    font-size: 5em
+    font-size: 5em;
+    font-family: "Bebas Neue Regular";
 }
 
 /* Align date to bottom of movie title... wip */
@@ -62,6 +79,7 @@
     margin: 0px;
     padding-bottom: 10px;
     font-size: 20px;
+    font-family: "Bebas Neue Regular";
 }
 
 .right_container {
@@ -83,6 +101,7 @@
     font-size: 20px;
     display: flex;
     gap: 20px;
+    font-family: "Bebas Neue Regular";
 }
 
 /* This is the stars_list flexbox */
@@ -91,6 +110,7 @@
     padding: 0px;
     display: flex;
     gap: 10px;
+    font-family: "Bebas Neue Light";
 }
 
 /* These are the stars_list flex items */
